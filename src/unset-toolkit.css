@@ -1,0 +1,61 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Hide x in input */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.center_f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center_g {
+  display: grid;
+  place-items: center;
+}
+
+.center_abs {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.m_auto {
+  margin: auto;
+}
+
+.dad {
+  position: relative;
+}
+
+button {
+  border: none;
+}
