@@ -32,7 +32,7 @@ const Trading = () => {
           </ul>
           <a
             className="xtb"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeMVwMAM8uGjz3rU78X5GhjMnFLMJeD_nACKne8IdTovHRQ8Q/viewform?usp=header"
+            href="https://forms.gle/TgaMcvFCwKEWwV4g9"
             target="_blank"
             rel="noopener noreferrer"
           >
