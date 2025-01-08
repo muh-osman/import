@@ -140,7 +140,7 @@ body {
 
 .course h5 {
   color: rgba(0, 0, 0, 0.55);
-  margin-bottom: 55px;
+  margin-bottom: 16px;
 }
 
 .course .repon {
@@ -148,6 +148,17 @@ body {
   top: calc(100% + 15px);
   left: 0; */
   width: 100% !important;
+}
+
+.course .repon div {
+  margin: auto;
+}
+
+@media (min-width: 555px) {
+  .course .repon div {
+    width: 555px;
+    margin: auto;
+  }
 }
 
 .course img {
